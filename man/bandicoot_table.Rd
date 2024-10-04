@@ -10,7 +10,7 @@ A \code{data.frame} with a row for each taxon and the following columns.
   \item{\code{Taxon} is a \code{character} vector giving the names of taxa
   assigned to tips and internal nodes.}
   \item{\code{Parent} is a \code{character} vector giving the corresponding parent taxon, except for the root node
-  which must be labelled as "Root".} 
+  which must be labelled as "Root".}
   \item{\code{Node_type} is a \code{character} vector labelling each row as one of "Root", "Tip" or "Internal".}
   \item{\code{Node_age} is \code{numeric} vector giving the age (to the nearest
   million years) of the internal node or tip. Tips have an age of 0, even

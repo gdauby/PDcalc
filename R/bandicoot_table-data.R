@@ -15,7 +15,7 @@
 #'   \item{\code{Taxon} is a \code{character} vector giving the names of taxa
 #'   assigned to tips and internal nodes.}
 #'   \item{\code{Parent} is a \code{character} vector giving the corresponding parent taxon, except for the root node
-#'   which must be labelled as "Root".} 
+#'   which must be labelled as "Root".}
 #'   \item{\code{Node_type} is a \code{character} vector labelling each row as one of "Root", "Tip" or "Internal".}
 #'   \item{\code{Node_age} is \code{numeric} vector giving the age (to the nearest
 #'   million years) of the internal node or tip. Tips have an age of 0, even
@@ -27,5 +27,5 @@
 #' @references Kear BP, Aplin KP & Westerman M (2016) Bandicoot fossils and DNA
 #'   elucidate lineage antiquity amongst xeric-adapted Australasian marsupials.
 #'   \emph{Scientific Reports} 6: 37537.
-#'   
+#'
 "bandicoot_table"
